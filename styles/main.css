@@ -15,6 +15,12 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+
     font-family: "Red Hat Display", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -26,11 +32,7 @@ body {
 }
 
 .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
+    max-width: 450px;
     border-radius: 2rem;
 }
 
@@ -160,4 +162,14 @@ body {
     body {
         background-image: url('../images/pattern-background-desktop.svg');
     } 
+    .hero-image {
+        height: 250px;
+    }
+    .order-summary__header {
+        font-size: 2rem;
+    }
+    
+    .order-sumary__text {
+        font-size: 1.1rem;
+    }
 }

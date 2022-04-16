@@ -123,20 +123,6 @@ body {
     color: #fff;
 }
 
-.proceed_to_cart:hover {
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-.change-plan:hover {
-    opacity: 0.5;
-}
-
-.cancel_order:hover {
-    color: var(--dark-blue);
-    cursor: pointer;
-}
-
 .cancel_order {
     padding: 1rem;
 
@@ -154,102 +140,24 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-/* 
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 475px;
-    border-radius: 2rem;
+/*Hover States*/
+
+.proceed_to_cart:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
-.hero-image {
-    width: 100%;
-    height: 250px;
-    border-top-left-radius: 1.2rem;
-    border-top-right-radius: 1.2rem;
-
-    background-image: url('../images/illustration-hero.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.change-plan:hover {
+    opacity: 0.5;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.container_content {
-    padding: 2.5rem;
-    background-color: #fff;
-    border-bottom-left-radius: 1.2rem;
-    border-bottom-right-radius: 1.2rem;
-}
-
-
-.text-area {
-    padding: 2rem 2rem 1.5rem;
-    text-align: center;
-    line-height: 1.5;
-}
-
-.other_info {
-    border-radius: 1rem;
-    background-color: var(--very-pale-blue);
-    padding: 1.2rem;
-}
-
-.order-summary__header {
-    margin-bottom: 1.3rem;
+.cancel_order:hover {
     color: var(--dark-blue);
+    cursor: pointer;
 }
 
-.order-sumary__text {
-    color: var(--desaturated-blue);
+@media screen and (min-width: 480px) {
+    body {
+        background-image: url('../images/pattern-background-desktop.svg');
+    } 
 }
-
-.music-icon {
-    margin-right: 1rem;
-}
-
-.plan-pricing {
-    margin-left: 1rem;
-    line-height: 1.5;
-}
-
-.price {
-    font-size: 1.2rem;
-    color: var(--desaturated-blue);
-}
-
-.change-plan {
-    text-decoration: none;
-}
-
-.mgtb{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.proceed_to_cart {
-    padding: 1rem;
-
-    border-radius: 0.5rem;
-    background-color: var(--bright-blue);
-    box-shadow: 1px 20px 30px -20px var(--bright-blue);
-    margin-bottom: 1rem;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-}
-
-.cancel_order {
-    padding: 1rem;
-
-    font-weight: 700;
-    text-align: center;
-    color: var(--desaturated-blue)
-} */

@@ -27,9 +27,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
 ## Author
 
-- Website - [Abraham Ogbumah](https://www.linkedin.com/in/abraham-ogbumah/)
-- Frontend Mentor - [@Abraham-Ogbumah](https://www.frontendmentor.io/profile/Abraham-Ogbumah)
-- Twitter - [@theRealhaybee](https://twitter.com/theRealhaybee)
+- Frontend Mentor - [@Abraham-Ogbumah](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@theRealhaybee](https://www.twitter.com/yourusername)
